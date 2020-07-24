@@ -1,0 +1,42 @@
+1)
+
+str1 = input("Enter the sentence:")
+str2 = input("Enter the word: ")
+for i in range(len(str1)): 
+  if str1.startswith(str2, i):
+    print(i)
+
+
+2)
+str="Letsupgrade"
+str.islower()
+False
+
+str="letsupgrade"
+str.islower()
+True
+
+str="12345"
+str.islower()
+False
+
+str="LETSUPGRADE"
+str.islower()
+False
+
+str="Letsupgrade"
+str.isupper()
+False
+
+str="letsupgrade"
+str.isupper()
+False
+
+str="12345"
+str.isupper()
+False
+
+str="LETSUPGRADE"
+str.isupper()
+True
+
