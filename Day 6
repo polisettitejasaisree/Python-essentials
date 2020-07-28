@@ -1,0 +1,8 @@
+
+
+
+
+list1=[11,12,13,14,15,17]
+list2=["a","b","c","d","e"]
+dict1={}
+print({ list1[each] : list2[each]    for each in range(min(len(list1),len(list2)))})
