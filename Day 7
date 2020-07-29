@@ -1,0 +1,32 @@
+
+
+1.
+
+dict1 = {1:"ptss",2:"teja",3:"sai",4:"sree"} 
+dict2 ={value:key         for key,value in dict1.items()}
+print(dict2)
+
+o/p:
+{'ptss': 1, 'teja': 2, 'sai': 3, 'sree': 4}
+
+
+2.
+
+list1=[(10,2),(30,4),(50,6),(40,5)]
+list2=[]
+for each in range(0,len(list1)):
+  a,b=list1[each]
+  list2.append(a+b)
+print("sum of tuple:",list2)
+
+o/p
+sum of tuple: [12, 34, 56, 45]
+
+3.
+list1=[(1,2,3),[1,2],['a','hit','less']]
+list2=[]
+list2=[i for each in list1 for i in each]
+print(list2)
+
+o/p
+[1, 2, 3, 1, 2, 'a', 'hit', 'less']
