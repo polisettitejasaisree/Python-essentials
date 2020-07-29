@@ -23,10 +23,10 @@ o/p
 sum of tuple: [12, 34, 56, 45]
 
 3.
-list1=[(1,2,3),[1,2],['a','hit','less']]
+list1=[(1,2,3),[1,2],['a','b','c']]
 list2=[]
 list2=[i for each in list1 for i in each]
 print(list2)
 
 o/p
-[1, 2, 3, 1, 2, 'a', 'hit', 'less']
+[1, 2, 3, 1, 2, 'a', 'b', 'c']
